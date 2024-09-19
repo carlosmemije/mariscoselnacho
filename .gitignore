@@ -4,8 +4,6 @@ node_modules/
 # Ignore log files
 *.log
 
-# Ignore compiled CSS files
-*.css.map
 
 # Ignore environment variable files
 .env
@@ -20,15 +18,9 @@ Thumbs.db
 dist/
 build/
 
-# Ignore video files (keep video files out of version control)
-source/video/
 
-# Ignore image files (optional, if you have a lot of images)
-source/img/
 
-# Ignore minified CSS and JavaScript files
-*.min.css
-*.min.js
+
 
 # Ignore other OS or editor generated files
 .idea/
