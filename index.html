@@ -1,69 +1,161 @@
 <!DOCTYPE html>
-<html>
-
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mariscos El Nacho</title>
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-</head>
-
-<body>
-
-    <div class="logo">
-        <center><img src="components/whitelogo.jpg" alt="blacklogo" width="100" height="100"></center>
-    </div>
-
-
-    <ul>
-        <li><a class="active" href="index.html">Home</a></li>
-        <li><a href="menu.html">Menu</a></li>
-        <li><a href="locations.html">Locations</a></li>
-        <li><a href="contacts.html">Contact</a></li>
-        <li><a href="about.html">About
-            </a></li>
-    </ul>
-
-
-    <div class="slideshow-container">
-
-        <div class="mySlides fade">
-            <div class="numbertext">1 / 2</div>
-            <img src="components/menu1.jpg" style="width:100%">
-            <div class="text">Menu</div>
+    <link rel="stylesheet" href="source/fontawesome/css/all.min.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="source/css/styles.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <!-- Site Header -->
+        <div class="sidebar">
+          <div class="header">
+            <i class="fas fa-fish fa-3x logo"></i>
+            <h1 class="site-name">Mariscos El Nacho</h1>
+          </div>
+          <nav>
+            <ul class="nav-list">
+              <li>
+                <a href="#menu" class="nav-link active"
+                  ><i class="fas fa-utensils"></i>&nbsp;&nbsp;Our Menu</a
+                >
+              </li>
+              <li>
+                <a href="#events" class="nav-link"
+                  ><i class="fas fa-star"></i>&nbsp;&nbsp;Events</a
+                >
+              </li>
+              <li>
+                <a href="#about" class="nav-link"
+                  ><i class="fas fa-users"></i>&nbsp;&nbsp;About Us</a
+                >
+              </li>
+              <li>
+                <a href="#contact" class="nav-link"
+                  ><i class="fas fa-comments"></i>&nbsp;&nbsp;Contact</a
+                >
+              </li>
+            </ul>
+          </nav>
         </div>
+        <div class="content">
+          <main>
+            <section id="menu" class="page-content active">
+              <nav class="tab-nav">
+                <ul>
+                  <li>
+                    <a href="#" class="tab-link active" data-id="seafood"
+                      >Seafood</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#" class="tab-link" data-id="drinks">Drinks</a>
+                  </li>
+                  <li>
+                    <a href="#" class="tab-link" data-id="desserts">Desserts</a>
+                  </li>
+                </ul>
+              </nav>
 
-        <div class="mySlides fade">
-            <div class="numbertext">2 / 2</div>
-            <img src="components/menu2.jpg" style="width:100%">
-            <div class="text">Menu 2</div>
+              <!-- Seafood Section -->
+              <div id="seafood" class="tab-content">
+                <div class="item">
+                  <img src="source/img/ceviche.png" alt="Ceviche" />
+                  <div class="item-details">
+                    <h3>Ceviche <span class="price">$14.99</span></h3>
+                    <p>
+                      Freshly made ceviche with shrimp, lime, cilantro, and
+                      tomato.
+                    </p>
+                  </div>
+                </div>
+                <!-- Add other seafood items here -->
+              </div>
+
+              <!-- Drinks Section -->
+              <div id="drinks" class="tab-content" style="display: none">
+                <div class="item">
+                  <img src="source/img/michelada.png" alt="Michelada" />
+                  <div class="item-details">
+                    <h3>Michelada <span class="price">$8.00</span></h3>
+                    <p>
+                      Refreshing michelada with the perfect blend of spices.
+                    </p>
+                  </div>
+                </div>
+                <!-- Add other drink items here -->
+              </div>
+
+              <!-- Desserts Section -->
+              <div id="desserts" class="tab-content" style="display: none">
+                <div class="item">
+                  <img src="source/img/flan.png" alt="Flan" />
+                  <div class="item-details">
+                    <h3>Flan <span class="price">$5.00</span></h3>
+                    <p>Delicious homemade flan with caramel sauce.</p>
+                  </div>
+                </div>
+                <!-- Add other dessert items here -->
+              </div>
+            </section>
+
+            <section id="events" class="page-content">
+              <h2>Events</h2>
+              <div class="special-item">
+                <img src="source/events/" alt="Events" />
+                <div>
+                  <h3>Events</h3>
+                  <p>
+                    A delicious mix of fresh shrimp, avocado, and our house-made
+                    cocktail sauce.
+                  </p>
+                </div>
+              </div>
+            </section>
+
+            <section id="about" class="page-content">
+              <h2>About Mariscos El Nacho</h2>
+              <p>
+                Mariscos El Nacho is dedicated to bringing you the best and
+                freshest seafood in town. Family-owned and operated, we pride
+                ourselves on authentic flavors and a welcoming atmosphere.
+              </p>
+            </section>
+
+            <section id="contact" class="page-content">
+              <h2>Contact Mariscos El Nacho</h2>
+              <form id="contact-form">
+                <input type="text" name="name" placeholder="Name" required />
+                <input type="email" name="email" placeholder="Email" required />
+                <textarea
+                  name="message"
+                  placeholder="Message"
+                  required
+                ></textarea>
+                <button type="submit">Submit</button>
+              </form>
+            </section>
+          </main>
         </div>
-
-        <a class="prev" onclick="plusSlides(-1)">❮</a>
-        <a class="next" onclick="plusSlides(1)">❯</a>
-
-    </div>
-    <br>
-
-    <div style="text-align:center">
-        <span class="dot" onclick="currentSlide(1)"></span>
-        <span class="dot" onclick="currentSlide(2)"></span>
+      </div>
     </div>
 
-    <script src="js/script.js"></script>
-
-
-    <div class="Links">
-        <!-- Add font awesome icons -->
-        <a href="https://www.facebook.com/mariscos.el.nachoo/" class="fa fa-facebook" target="_blank"></a>
-        <a href="https://www.instagram.com/mariscos.el.nacho/" class="fa fa-instagram" target="_blank"></a>
-        <a href="https://www.yelp.com/biz/mariscos-el-nacho-merced-2" class="fa fa-yelp" target="_blank"></a>
+    <!-- Background video -->
+    <div class="video-wrapper">
+      <i id="video-control" class="fas fa-pause"></i>
+      <video autoplay muted loop id="video">
+        <source src="source/video/videoplayback.mp4" type="video/mp4" />
+      </video>
     </div>
 
-</body>
-
+    <script src="source/js/jquery-3.4.1.min.js"></script>
+    <script src="source/js/scripts.js"></script>
+  </body>
 </html>

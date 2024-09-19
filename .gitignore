@@ -1,0 +1,45 @@
+# Ignore node_modules if using Node.js for the project
+node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore compiled CSS files
+*.css.map
+
+# Ignore environment variable files
+.env
+
+# Ignore local development files (macOS, Windows, Linux)
+.DS_Store
+Thumbs.db
+*.swp
+.vscode/
+
+# Ignore built assets or output (if you have any build steps)
+dist/
+build/
+
+# Ignore video files (keep video files out of version control)
+source/video/
+
+# Ignore image files (optional, if you have a lot of images)
+source/img/
+
+# Ignore minified CSS and JavaScript files
+*.min.css
+*.min.js
+
+# Ignore other OS or editor generated files
+.idea/
+*.sublime-workspace
+*.sublime-project
+
+# Ignore personal or private configuration files
+*.local
+
+# Ignore any backup files
+*.bak
+*.tmp
+~*
+
