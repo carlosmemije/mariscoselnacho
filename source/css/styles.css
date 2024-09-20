@@ -6,6 +6,12 @@ html {
   font-family: 'Open Sans', Arial, sans-serif;
   background-color: #1e5050;
   overflow-x: hidden; /* Prevent horizontal scrolling */
+  font-family: 'Lobster Two', sans-serif;
+}
+
+/* Add soft corners to the entire body */
+body {
+  border-radius: 10px;
 }
 
 /* Container and Layout */
@@ -15,25 +21,31 @@ html {
   padding: 30px;
   position: relative; /* Ensure content is layered properly */
   z-index: 2; /* Ensure the content is above the video */
+  border-radius: 10px; /* Soft corners */
 }
 
 .sidebar {
   width: 25%;
   position: fixed;
   z-index: 3; /* Ensure menu is on top of the video */
+  border-radius: 10px; /* Soft corners */
 }
 
 .header {
   text-align: center;
   margin-bottom: 30px;
+  border-radius: 10px; /* Soft corners */
 }
 
 .logo {
-  margin-right: 20px;
+  width: 200px;
+  height: 200px;
+  border-radius: 10px; /* Soft corners for logo image */
 }
 
 .site-name {
   font-size: 2.2rem;
+  border-radius: 10px; /* Soft corners for site name */
 }
 
 .nav-list {
@@ -54,6 +66,7 @@ html {
   background-color: white;
   color: #099;
   transition: background 0.3s;
+  border-radius: 10px; /* Soft corners for the links */
 }
 
 .nav-link:hover,
@@ -65,11 +78,29 @@ html {
 .page-content {
   display: none;
   padding-left: 400px;
+  color: white;
+  border-radius: 10px; /* Soft corners */
+}
+
+.page-content h2,
+h3,
+p {
+  display: inline-block;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 5px 10px;
+  border-radius: 10px; /* Soft corners for text backgrounds */
 }
 
 .page-content.active {
   display: block;
 }
+
+.eventsimg {
+  width: 100px;
+  height: 100px;
+  border-radius: 10px; /* Soft corners for event images */
+}
+
 .tab-nav ul {
   display: flex;
   justify-content: space-around;
@@ -81,12 +112,18 @@ html {
 .tab-link {
   text-decoration: none;
   color: white;
+  padding: 10px;
+  flex: 1;
+  background-color: rgba(0, 0, 0, 0.6);
+  color: white;
+  border-radius: 10px; /* Soft corners for tabs */
 }
 
 .item {
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  border-radius: 10px; /* Soft corners for each item */
 }
 
 /* Video Styling */
@@ -117,6 +154,7 @@ html {
   right: 10px;
   cursor: pointer;
   z-index: 10; /* Ensure control button is clickable */
+  border-radius: 50%; /* Soft circular control button */
 }
 
 /* Drink Menu Item Styles */
@@ -125,6 +163,7 @@ html {
   align-items: center;
   justify-content: space-between;
   margin-top: 20px;
+  border-radius: 10px; /* Soft corners for each item */
 }
 
 .item-details {
@@ -134,6 +173,7 @@ html {
   color: white;
   width: 300px;
   height: 160px;
+  border-radius: 10px; /* Soft corners */
 }
 
 .item img {
@@ -141,6 +181,7 @@ html {
   height: 200px;
   margin-right: 20px;
   background-color: #099;
+  border-radius: 10px; /* Soft corners for images */
 }
 
 .item h3 {
@@ -158,6 +199,7 @@ html {
   padding: 10px 65px 10px 20px;
   display: inline-block;
   color: white;
+  border-radius: 10px; /* Soft corners for footer text */
 }
 
 @media (max-width: 991px) {

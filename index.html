@@ -5,8 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Mariscos El Nacho</title>
     <link rel="stylesheet" href="source/fontawesome/css/all.min.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css?family=Open+Sans:300,400"
+      href="https://fonts.googleapis.com/css2?family=Lobster+Two&display=swap"
       rel="stylesheet"
     />
     <link rel="stylesheet" href="source/css/styles.css" />
@@ -17,7 +19,11 @@
         <!-- Site Header -->
         <div class="sidebar">
           <div class="header">
-            <i class="fas fa-fish fa-3x logo"></i>
+            <img
+              src="source/img/blacklogo.jpg"
+              alt="Mariscos El Nacho Logo"
+              class="logo"
+            />
             <h1 class="site-name">Mariscos El Nacho</h1>
           </div>
           <nav>
@@ -52,14 +58,14 @@
                 <ul>
                   <li>
                     <a href="#" class="tab-link active" data-id="seafood"
-                      >Seafood</a
+                      >Mariscos</a
                     >
                   </li>
                   <li>
-                    <a href="#" class="tab-link" data-id="drinks">Drinks</a>
+                    <a href="#" class="tab-link" data-id="drinks">Bebidas</a>
                   </li>
                   <li>
-                    <a href="#" class="tab-link" data-id="desserts">Desserts</a>
+                    <a href="#" class="tab-link" data-id="desserts">Charolas</a>
                   </li>
                 </ul>
               </nav>
@@ -67,7 +73,7 @@
               <!-- Seafood Section -->
               <div id="seafood" class="tab-content">
                 <div class="item">
-                  <img src="source/img/ceviche.png" alt="Ceviche" />
+                  <img src="source/img/blacklogo.jpg" alt="Ceviche" />
                   <div class="item-details">
                     <h3>Ceviche <span class="price">$14.99</span></h3>
                     <p>
@@ -76,13 +82,94 @@
                     </p>
                   </div>
                 </div>
-                <!-- Add other seafood items here -->
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Tostada Nacho" />
+                  <div class="item-details">
+                    <h3>Tostada Nacho <span class="price">$12.00</span></h3>
+                    <p>
+                      Mixed seafood tostada with shrimp, octopus, and scallops.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img
+                    src="source/img/blacklogo.jpg"
+                    alt="Ceviche de Camaron"
+                  />
+                  <div class="item-details">
+                    <h3>Ceviche de Camaron <span class="price">$6.00</span></h3>
+                    <p>Shrimp ceviche with cucumber and avocado.</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Ceviche de Jaiva" />
+                  <div class="item-details">
+                    <h3>Ceviche de Jaiva <span class="price">$5.00</span></h3>
+                    <p>Crab ceviche served with avocado and cilantro.</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Aguachile Verde" />
+                  <div class="item-details">
+                    <h3>Aguachile Verde <span class="price">$20.00</span></h3>
+                    <p>Green aguachile with shrimp, lime, and jalapenos.</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Aguachile Rojo" />
+                  <div class="item-details">
+                    <h3>Aguachile Rojo <span class="price">$20.00</span></h3>
+                    <p>Red aguachile with shrimp and a spicy red sauce.</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Tostada Tropical" />
+                  <div class="item-details">
+                    <h3>Tostada Tropical <span class="price">$10.00</span></h3>
+                    <p>Tostada with shrimp, mango, and a tropical salsa.</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Tostada Irene" />
+                  <div class="item-details">
+                    <h3>Tostada Irene <span class="price">$12.00</span></h3>
+                    <p>
+                      Tostada with shrimp, octopus, and mango with a spicy
+                      sauce.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Tostada El Rey" />
+                  <div class="item-details">
+                    <h3>Tostada El Rey <span class="price">$15.00</span></h3>
+                    <p>Tostada with abalone, shrimp, and octopus.</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Tostada Tijuana" />
+                  <div class="item-details">
+                    <h3>Tostada Tijuana <span class="price">$14.00</span></h3>
+                    <p>
+                      Tostada with shrimp, octopus, and scallops in salsa mix.
+                    </p>
+                  </div>
+                </div>
               </div>
 
-              <!-- Drinks Section -->
+              <!-- Bebidas Section -->
               <div id="drinks" class="tab-content" style="display: none">
                 <div class="item">
-                  <img src="source/img/michelada.png" alt="Michelada" />
+                  <img src="source/img/blacklogo.jpg" alt="Michelada" />
                   <div class="item-details">
                     <h3>Michelada <span class="price">$8.00</span></h3>
                     <p>
@@ -90,31 +177,262 @@
                     </p>
                   </div>
                 </div>
-                <!-- Add other drink items here -->
-              </div>
 
-              <!-- Desserts Section -->
-              <div id="desserts" class="tab-content" style="display: none">
                 <div class="item">
-                  <img src="source/img/flan.png" alt="Flan" />
+                  <img src="source/img/blacklogo.jpg" alt="La Toxica" />
                   <div class="item-details">
-                    <h3>Flan <span class="price">$5.00</span></h3>
-                    <p>Delicious homemade flan with caramel sauce.</p>
+                    <h3>La Toxica <span class="price">$25.00</span></h3>
+                    <p>Signature cocktail with beer and spices.</p>
                   </div>
                 </div>
-                <!-- Add other dessert items here -->
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Squirt Preparado" />
+                  <div class="item-details">
+                    <h3>Squirt Preparado <span class="price">$15.00</span></h3>
+                    <p>Squirt soda with lemon and spices.</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Clamato Preparado" />
+                  <div class="item-details">
+                    <h3>Clamato Preparado <span class="price">$15.00</span></h3>
+                    <p>Clamato mixed with spices and lemon.</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="El Refuego" />
+                  <div class="item-details">
+                    <h3>El Refuego <span class="price">$20.00</span></h3>
+                    <p>3 Oyster shots with lime and salsa.</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Sangria Preparada" />
+                  <div class="item-details">
+                    <h3>Sangria Preparada <span class="price">$7.00</span></h3>
+                    <p>Prepared sangria with fresh fruits.</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Soda de Botella" />
+                  <div class="item-details">
+                    <h3>Soda de Botella <span class="price">$3.50</span></h3>
+                    <p>Glass-bottled soda for a refreshing taste.</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Aguas Frescas" />
+                  <div class="item-details">
+                    <h3>Aguas Frescas <span class="price">$5.00</span></h3>
+                    <p>House-made aguas frescas in various flavors.</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Corona" />
+                  <div class="item-details">
+                    <h3>Corona <span class="price">$5.00</span></h3>
+                    <p>Classic Corona beer, served cold.</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img
+                    src="source/img/blacklogo.jpg"
+                    alt="Michelada Agua Mineral"
+                  />
+                  <div class="item-details">
+                    <h3>
+                      Michelada Agua Mineral <span class="price">$5.00</span>
+                    </h3>
+                    <p>Michelada made with sparkling mineral water.</p>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Charolas Section -->
+              <div id="desserts" class="tab-content" style="display: none">
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Charola Chica" />
+                  <div class="item-details">
+                    <h3>Charola Chica <span class="price">$70.00</span></h3>
+                    <p>Small party platter with shrimp, ceviche, and more.</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Charola Grande" />
+                  <div class="item-details">
+                    <h3>Charola Grande <span class="price">$135.00</span></h3>
+                    <p>
+                      Large party platter with shrimp, fish, and other seafood
+                      options.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Ceviche Charola" />
+                  <div class="item-details">
+                    <h3>Ceviche Charola <span class="price">$60.00</span></h3>
+                    <p>Party-sized ceviche with fresh shrimp and lime.</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Tostadas Charola" />
+                  <div class="item-details">
+                    <h3>Tostadas Charola <span class="price">$55.00</span></h3>
+                    <p>Party-sized platter of seafood tostadas.</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Mixed Charola" />
+                  <div class="item-details">
+                    <h3>Mixed Charola <span class="price">$80.00</span></h3>
+                    <p>A mix of ceviche, shrimp, and octopus for your event.</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Shrimp Charola" />
+                  <div class="item-details">
+                    <h3>Shrimp Charola <span class="price">$65.00</span></h3>
+                    <p>Large shrimp platter for parties.</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Oyster Charola" />
+                  <div class="item-details">
+                    <h3>Oyster Charola <span class="price">$75.00</span></h3>
+                    <p>
+                      Party-sized platter of oysters with lime and hot sauce.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Aguachile Charola" />
+                  <div class="item-details">
+                    <h3>Aguachile Charola <span class="price">$85.00</span></h3>
+                    <p>
+                      Large platter of green or red aguachile for your event.
+                    </p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Fish Charola" />
+                  <div class="item-details">
+                    <h3>Fish Charola <span class="price">$70.00</span></h3>
+                    <p>Large fish platter with various seafood toppings.</p>
+                  </div>
+                </div>
+
+                <div class="item">
+                  <img src="source/img/blacklogo.jpg" alt="Deluxe Charola" />
+                  <div class="item-details">
+                    <h3>Deluxe Charola <span class="price">$100.00</span></h3>
+                    <p>
+                      The ultimate party platter with a mix of seafood and
+                      sides.
+                    </p>
+                  </div>
+                </div>
               </div>
             </section>
 
             <section id="events" class="page-content">
               <h2>Events</h2>
-              <div class="special-item">
-                <img src="source/events/" alt="Events" />
+
+              <!-- Event 1 -->
+              <div>
+                <img
+                  src="source/img/blacklogo.jpg"
+                  class="eventsimg"
+                  alt="Seafood Festival"
+                />
                 <div>
-                  <h3>Events</h3>
+                  <h3>Seafood Festival</h3>
                   <p>
-                    A delicious mix of fresh shrimp, avocado, and our house-made
-                    cocktail sauce.
+                    Join us for an all-day seafood festival featuring special
+                    menu items like grilled lobster, oyster shots, and ceviche
+                    tastings. Live music and family fun all day long.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Event 2 -->
+              <div>
+                <img
+                  src="source/img/blacklogo.jpg"
+                  class="eventsimg"
+                  alt="Taco Tuesday"
+                />
+                <div>
+                  <h3>Taco Tuesday</h3>
+                  <p>
+                    Every Tuesday, enjoy $2 seafood tacos all day long! Shrimp,
+                    fish, and octopus tacos, prepared fresh to order.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Event 3 -->
+              <div>
+                <img
+                  src="source/img/blacklogo.jpg"
+                  class="eventsimg"
+                  alt="Family Night"
+                />
+                <div>
+                  <h3>Family Night</h3>
+                  <p>
+                    Bring the whole family for Family Night! Kids eat free with
+                    the purchase of an adult entrée. Enjoy our special kids'
+                    menu and games for the little ones.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Event 4 -->
+              <div>
+                <img
+                  src="source/img/blacklogo.jpg"
+                  class="eventsimg"
+                  alt="Michelada Madness"
+                />
+                <div>
+                  <h3>Michelada Madness</h3>
+                  <p>
+                    On the first Saturday of every month, enjoy our famous
+                    Micheladas for only $5. Try new flavors and pair them with
+                    our seafood tostadas.
+                  </p>
+                </div>
+              </div>
+
+              <!-- Event 5 -->
+              <div>
+                <img
+                  src="source/img/blacklogo.jpg"
+                  class="eventsimg"
+                  alt="Mariscos Brunch"
+                />
+                <div>
+                  <h3>Mariscos Brunch</h3>
+                  <p>
+                    Start your Sunday with a seafood brunch featuring shrimp
+                    cocktails, aguachiles, and freshly prepared ceviche. Mimosas
+                    are available for a limited time!
                   </p>
                 </div>
               </div>
